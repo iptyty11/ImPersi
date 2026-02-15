@@ -1,16 +1,77 @@
 body {
+    background-size: cover;
     font-size: 15;
       font-family: "Press Start 2P", system-ui;
   font-weight: 100;
   font-style: normal;
-    
-    background-color: rgb(108, 108, 108);
+    background-image:url("freepik__minecraft-landscape-blocky-hills-and-trees-bright-__46211.png");
     color: rgb(255, 255, 255);
 }
 
 h2 {
-    color: rgb(140, 140, 140);
-    background-color: rgb(77, 77, 77);
+    padding: 10px;
+    border-radius: 20px
+    ;
+    color: rgb(0, 0, 0);
+    background-color: rgb(75, 75, 75);
 }
 
+
+.admins{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav{
+    text-decoration:rgb(0, 217, 217);
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+nav a{
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: rgb(137, 157, 157); 
+    background-color: rgb(27, 21, 112);
+}
+
+.news {
+    display: grid; 
+    grid-template-columns: 250px 250px 250px;
+}
+
+.news article { 
+    background-color:rgb(249, 30, 30);
+    margin: 10px;
+    width: 200px;
+    height: auto;
+}
+
+footer a:hover {
+    color: blue;
+    background-color: deepskyblue;
+}
+
+footer a {
+    text-decoration: none;
+    border-radius: 20px;
+    color: aqua;
+    padding: 5px;
+    background-color: darkslategrey;
+}
+
+footer {
+    margin-top: 10px;
+}
 
