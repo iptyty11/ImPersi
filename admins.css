@@ -1,0 +1,18 @@
+body {
+    background-size: cover;
+    background-image:url("freepik__minecraft-seascape-with-blocky-islands-and-sun-emp__46212.png");
+    font-size: 15;
+      font-family: "Press Start 2P", system-ui;
+  font-weight: 100;
+  font-style: normal;
+    
+    background-color: rgb(108, 108, 108);
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(140, 140, 140);
+    background-color: rgb(77, 77, 77);
+}
+
+
